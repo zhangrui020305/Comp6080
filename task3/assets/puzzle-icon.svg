@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79 79">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #0a1633;
+      }
+
+      .cls-3, .cls-2 {
+        stroke: #0a1633;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="Isolation_Mode" data-name="Isolation Mode">
+    <g>
+      <g>
+        <rect class="cls-3" x="12.69" y="12.69" width="26.81" height="26.81"/>
+        <rect class="cls-2" x="39.5" y="12.69" width="26.81" height="26.81"/>
+        <rect class="cls-2" x="12.69" y="39.5" width="26.81" height="26.81"/>
+        <rect class="cls-2" x="39.5" y="39.5" width="26.81" height="26.81"/>
+      </g>
+      <rect class="cls-1" width="79" height="79"/>
+    </g>
+  </g>
+</svg>

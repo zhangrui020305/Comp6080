@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79 79">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+        stroke: #0a1633;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="Isolation_Mode" data-name="Isolation Mode">
+    <g>
+      <path class="cls-2" d="M56.52,65.18l-6.97-17.43-6.41-6.41-8.22,8.22c-.82.82-1.96,1.81-3.24,2.83l.45,9.76c.03.61-.26,1.22-.57,1.74l-1.3,1.3c-.34.34-.96.01-1.36-.55l-3.24-8.09c-2.1,1.2-3.84,1.83-4.44,1.24h0c-.6-.6.04-2.34,1.24-4.44l-8.09-3.25c-.57-.4-.9-1.02-.55-1.36l1.3-1.3c.52-.31,1.14-.6,1.74-.57l9.76.45c1.02-1.29,2.01-2.43,2.83-3.25l8.22-8.21-6.41-6.41-17.43-6.98c-.83-.33-.36-.6-.35-.8l1.71-1.71c.26-.13.6-.35,1.49-.35l31.96,5.28h0s0,0,0,0l7.67-7.67c3.33-3.33,7.27-4.81,8.78-3.3h0c1.51,1.51.03,5.45-3.3,8.78l-7.67,7.67,5.28,31.96c0,.89-.22,1.23-.35,1.49l-1.71,1.71c-.2.01-.48.48-.8-.35Z" marker-end="none" marker-start="none"/>
+      <rect class="cls-1" width="79" height="79"/>
+    </g>
+  </g>
+</svg>
