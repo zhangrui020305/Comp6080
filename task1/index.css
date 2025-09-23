@@ -1,0 +1,58 @@
+body {
+  margin: 0; /* remove default spacing */
+  display: flex; /* enable flexbox */
+  justify-content: center; /* center horizontally */
+}
+.container {
+  width: 1300px;
+  height: 1500px;
+}
+.title {
+  background-color: white;
+  height: 118px;
+}
+.course_name {
+  margin-top: 30px;
+  font-size: larger bold;
+}
+.menu {
+  display: flex;
+  background-color: #d88d42;
+  height: 72px;
+}
+.item {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-right: 1px solid black;
+}
+.item:last-child {
+  border-right: none;
+}
+.search {
+  display: flex;
+  background-color: #000000;
+  height: 72px;
+}
+.search-box {
+  width: 636px;
+  height: 36px;
+}
+.search-btn {
+  width: 53px;
+  height: 36px;
+}
+.one-article {
+    margin-top: 30px;
+}
+.time {
+    color: #919191;
+}
+.article-title {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.picture {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
