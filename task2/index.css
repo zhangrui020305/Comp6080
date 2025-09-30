@@ -6,8 +6,8 @@
   font-family: Arial;
 }
 .container {
-    width: 1490px;
-    height: 1250px;
+  width: 1490px;
+  height: 1250px;
 }
 .nav-bar {
   display: flex;
@@ -110,7 +110,6 @@
   width: 188px;
   height: 47px;
   margin-right: 13px;
-
 }
 .date-icon {
   width: 20px;
@@ -131,33 +130,83 @@
   font-size: 14px;
 }
 .search-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2772b2;
+  color: white;
+  border-radius: 20px;
+  width: 194px;
+  height: 47px;
+}
+.beach-hotel-deal {
+  margin-left: 175px;
+  margin-top: 68px;
+}
+.BHD-title {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.gold-coast-hotel-deals {
+  margin-top: 80px;
+  margin-left: 170px;
+}
+.GCH-title {
+  font-size: 30px;
+  font-weight: 400;
+}
+.GCH-time {
+  display: flex;
+}
+.card-container {
+  display: flex;
+  width: 1130px;
+  justify-content: center;
+  gap: 16px;
+}
+.card {
+  border-radius: 10px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.card-image {
+    position: relative;
+    width: 270px;
+    height: 203px;
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #2772b2;
-    color: white;
-    border-radius: 20px;
-    width: 194px;
-    height: 47px;
-}
-.beach-hotel-deal {
-    margin-left: 175px;
-    margin-top: 68px;
-}
-.BHD-title {
-    font-size: 28px;
-    font-weight: 500; 
-    margin-bottom: 10px;
-}
-.gold-coast-hotel-deals {
-    margin-top: 80px;
-    margin-left: 170px;
-    
-}
-.GCH-title {
-    font-size: 30px;
-    font-weight: 400; 
-}
-.GCH-time {
-    display: flex;
-}
+    cursor: pointer;
+  }
+  
+  .arrow.left {
+    left: 8px;
+  }
+  
+  .arrow.right {
+    right: 8px;
+  }
+  
+  .arrow svg {
+    stroke: white;
+  }
