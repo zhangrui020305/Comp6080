@@ -51,7 +51,7 @@ You are expected to have reasonable intermediate states. In other words, if the 
 Please build your page in `task3/index.html`. You are welcome to create as many CSS files that you need in the `task3` folder for `index.html` to import. When being marked, your tutor will start with `index.html`.
 
 On top of this you are required to:
- * Ensure that the *Subscribe now* buttons invert on hover (e.g., the background and text colors swap)
+ * Ensure that the *Subscribe now* buttons invert on hover (e.g., the background and text colors swap), as shown in the middle button.
 
 #### Assets
 
