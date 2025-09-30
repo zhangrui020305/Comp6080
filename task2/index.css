@@ -59,8 +59,8 @@
   background-repeat: no-repeat;
 }
 .tabs-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .tabs {
   display: flex;
@@ -68,13 +68,13 @@
   width: 1200px;
   gap: 20px;
   border-bottom: 1px solid #ddd;
-  padding-bottom: 5px;
 }
 
 .tab {
-  padding: 8px 0;
+  padding: 8px 10px 8px 10px;
   cursor: pointer;
   color: #333;
+  border-bottom: 2px solid transparent;
   transition: all 0.2s ease;
 }
 
