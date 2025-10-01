@@ -181,6 +181,39 @@ body {
   background-color: #0056b3;
   color: #fff;
 }
+
+.slider-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-family: sans-serif;
+    margin-top: 50px;
+  }
+  
+  .left-text {
+    color: #0056b3;
+    font-weight: bold;
+  }
+  
+  .right-text {
+    color: #cce5ff;
+    font-weight: bold;
+  }
+  
+  .slider {
+    flex-shrink: 0; /* SVG 不缩小 */
+    display: block;
+  }
+
+.more-paper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    color: #0056b3;
+}
+
 /* Benefits 区域 */
 .benefits {
   display: flex;
