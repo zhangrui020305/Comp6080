@@ -31,23 +31,62 @@ body {
   gap: 20px;
   padding: 40px;
 }
-
+.plan-wrapper {
+  height: 304px;
+  transform: translateY(-2px);
+}
 .plan {
   flex: 1;
-  max-width: 300px;
-  border: 1px solid #ddd;
+  /* max-width: 300px; */
+  width: 304px;
+  height: 400px;
   border-radius: 8px;
   background: white;
-  padding: 20px;
+  padding: 0 20px 20px 20px;
   text-align: center;
 }
+.plan-2 {
+    flex: 1;
+    width: 304px;
+    height: 400px;
+    border-radius: 8px;  /* 整体圆角 */
+    background: white;
+    padding: 20px;       /* padding 保留 */
+    text-align: center;
+    position: relative;  /* 保证 z-index 生效 */
+    z-index: 1;
+  }
+  .plan-banner {
+    width: 320px;
+    height: 20px;
+    position: absolute;        /* 悬浮 */
+    top: -14px;                /* 调整紧贴 plan-2 */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    border-radius: 4px;       /* 只给左右圆角也可以 */
+    font-weight: bold;
+    font-size: 14px;
+    z-index: 2;
+  }
 .plan-description {
+  margin-top: 30px;
   color: red;
-  font-size: 15px;
+  font-size: 10px;
   font-weight: 600;
 }
 
 .plan h2 {
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.plan-2 h2 {
   font-size: 30px;
   margin-top: 5px;
   margin-bottom: 10px;
@@ -58,6 +97,7 @@ body {
   justify-content: center;
   align-items: flex-start;
   margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 .currency {
@@ -85,44 +125,62 @@ body {
 }
 
 .features {
-    margin: 15px 0;
-    text-align: left;
-  }
-  
-  .feature {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 8px;
-    font-size: 14px;
-  }
-  
-  .feature svg {
-    width: 16px;
-    height: 16px;
-    fill: black;
-    stroke: black;
-    stroke-width: 2;
-    flex-shrink: 0;
-    margin-right: 8px;
-  }
+  margin: 15px 0;
+  text-align: left;
+}
 
-  .plan button {
-    width: 270px;
-    height: 32px;
-    margin-top: 20px;
-    background-color: white;
-    color: #0056b3; 
-    border: 2px solid #0056b3; 
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: all 0.3s ease;
-  }
-  
-  .plan button:hover {
-    background-color: #0056b3;
-    color: #fff;
-  }
+.feature {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  font-size: 14px;
+  gap: 4px;
+}
+
+.feature svg {
+  width: 16px;
+  height: 16px;
+  fill: black;
+  stroke: black;
+  stroke-width: 2;
+  flex-shrink: 0;
+  margin-right: 8px;
+}
+
+.plan-button {
+  width: 270px;
+  height: 32px;
+  margin-top: 20px;
+  background-color: white;
+  color: #0056b3;
+  border: 2px solid #0056b3;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.plan-button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+.plan2-button {
+  width: 270px;
+  height: 32px;
+  margin-top: 45px;
+  background-color: white;
+  color: #0056b3;
+  border: 2px solid #0056b3;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.plan2-button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
 /* Benefits 区域 */
 .benefits {
   display: flex;
