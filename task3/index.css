@@ -41,10 +41,48 @@ body {
   padding: 20px;
   text-align: center;
 }
+.plan-description {
+  color: red;
+  font-size: 15px;
+  font-weight: 600;
+}
 
 .plan h2 {
+  font-size: 30px;
+  margin-top: 5px;
   margin-bottom: 10px;
 }
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10px;;
+  }
+  
+  .currency {
+    font-size: 16px;
+    align-self: flex-start;
+    margin-top: 3px;
+    font-weight: bold;
+  }
+  
+  .amount {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1;
+  }
+  
+  .per-week {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-left: 4px;
+    margin-top: 4px;
+  }
 
 .plan button {
   margin-top: 20px;
@@ -82,19 +120,18 @@ body {
   align-items: center;
 }
 
-/* ====== 响应式：小屏幕下改为纵向 ====== */
 @media (max-width: 768px) {
   .first-title {
-    font-size: 28px; /* 变小 */
+    font-size: 18px;
   }
 
   .second-title {
-    font-size: 28px; /* 变小 */
+    font-size: 18px;
   }
 
   .intro {
-    font-size: 24px; /* intro 变大 */
-    margin-top: 16px; /* 缩短间距 */
+    font-size: 16px;
+    margin-top: 19px;
   }
   .plans-container {
     flex-direction: column;
