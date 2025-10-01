@@ -202,7 +202,7 @@ body {
   }
   
   .slider {
-    flex-shrink: 0; /* SVG 不缩小 */
+    flex-shrink: 0;
     display: block;
   }
 
@@ -214,7 +214,6 @@ body {
     color: #0056b3;
 }
 
-/* Benefits 区域 */
 .benefits {
   display: flex;
   padding: 40px;
