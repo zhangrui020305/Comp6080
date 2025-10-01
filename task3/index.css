@@ -54,46 +54,75 @@ body {
 }
 
 .price {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 10px;;
-  }
-  
-  .currency {
-    font-size: 16px;
-    align-self: flex-start;
-    margin-top: 3px;
-    font-weight: bold;
-  }
-  
-  .amount {
-    font-size: 36px;
-    font-weight: bold;
-    line-height: 1;
-  }
-  
-  .per-week {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 1.1;
-    margin-left: 4px;
-    margin-top: 4px;
-  }
-
-.plan button {
-  margin-top: 20px;
-  padding: 10px;
-  background: #0056b3;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 10px;
 }
 
+.currency {
+  font-size: 16px;
+  align-self: flex-start;
+  margin-top: 3px;
+  font-weight: bold;
+}
+
+.amount {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.per-week {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-left: 4px;
+  margin-top: 4px;
+}
+
+.features {
+    margin: 15px 0;
+    text-align: left;
+  }
+  
+  .feature {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  
+  .feature svg {
+    width: 16px;
+    height: 16px;
+    fill: black;
+    stroke: black;
+    stroke-width: 2;
+    flex-shrink: 0;
+    margin-right: 8px;
+  }
+
+  .plan button {
+    width: 270px;
+    height: 32px;
+    margin-top: 20px;
+    background-color: white;
+    color: #0056b3; 
+    border: 2px solid #0056b3; 
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .plan button:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
 /* Benefits 区域 */
 .benefits {
   display: flex;
