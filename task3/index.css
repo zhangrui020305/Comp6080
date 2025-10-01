@@ -1,7 +1,9 @@
 body {
   font-family: sans-serif;
   margin: 0;
-  background: #f9f9f9;
+  background: #f7f7f7;
+  background: linear-gradient(to bottom, #0c162d 0%, #0c162d 29%, #f7f7f7 29%, #f7f7f7 100%);
+
 }
 .title-container {
   display: flex;
@@ -11,11 +13,14 @@ body {
   font-family: Abril Titling SemiBold;
 }
 .first-title {
+    margin-top: 20px;
   font-size: 40px;
+  color: #fff;
 }
 .second-title {
   display: flex;
   justify-content: center;
+  color: #fff;
   font-size: 40px;
 }
 .intro {
@@ -23,11 +28,13 @@ body {
   justify-content: center;
   margin-top: 32px;
   font-size: 20px;
+  color: #fff;
 }
 
 .plans-container {
   display: flex;
   justify-content: center;
+  width: 1102px;
   gap: 20px;
   padding: 40px;
 }
@@ -35,10 +42,10 @@ body {
   height: 304px;
   transform: translateY(-2px);
 }
+
 .plan {
   flex: 1;
-  /* max-width: 300px; */
-  width: 304px;
+  width: 364px;
   height: 400px;
   border-radius: 8px;
   background: white;
@@ -49,28 +56,28 @@ body {
   flex: 1;
   width: 304px;
   height: 400px;
-  border-radius: 8px; /* 整体圆角 */
+  border-radius: 8px;
   background: white;
-  padding: 20px; /* padding 保留 */
+  padding: 20px;
   text-align: center;
-  position: relative; /* 保证 z-index 生效 */
+  position: relative;
   z-index: 1;
 }
 .plan-banner {
   width: 320px;
   height: 20px;
-  position: absolute; /* 悬浮 */
-  top: -14px; /* 调整紧贴 plan-2 */
+  position: absolute; 
+  top: -14px;
   left: 50%;
   transform: translateX(-50%);
+  
   background-color: red;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 4px 12px;
-  border-radius: 4px; /* 只给左右圆角也可以 */
-  font-weight: bold;
+  border-radius: 4px;
   font-size: 14px;
   z-index: 2;
 }
@@ -85,11 +92,13 @@ body {
   font-size: 30px;
   margin-top: 5px;
   margin-bottom: 10px;
+  font-family: Abril Titling SemiBold;
 }
 .plan-2 h2 {
   font-size: 30px;
   margin-top: 5px;
   margin-bottom: 10px;
+  font-family: Abril Titling SemiBold;
 }
 
 .price {
@@ -98,6 +107,7 @@ body {
   align-items: flex-start;
   margin-top: 10px;
   margin-bottom: 50px;
+  font-family: Abril Titling SemiBold;
 }
 
 .currency {
@@ -105,12 +115,14 @@ body {
   align-self: flex-start;
   margin-top: 3px;
   font-weight: bold;
+  font-family: Abril Titling SemiBold;
 }
 
 .amount {
   font-size: 36px;
   font-weight: bold;
   line-height: 1;
+  font-family: Abril Titling SemiBold;
 }
 
 .per-week {
@@ -188,17 +200,19 @@ body {
   justify-content: center;
   gap: 5px;
   font-family: sans-serif;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .left-text {
-  color: #0056b3;
+  color: #2a6dd0;
   font-weight: bold;
+  font-size: 10px;
 }
 
 .right-text {
   color: #cce5ff;
   font-weight: bold;
+  font-size: 10px;
 }
 
 .slider {
@@ -211,7 +225,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 25px;
-  color: #0056b3;
+  color: #2867b3;
 }
 
 .benefits {
@@ -223,6 +237,7 @@ body {
 .benefits-left {
   font-size: 45px;
   font-weight: bold;
+  font-family: Abril Titling SemiBold;
 }
 .highlight {
     border-bottom: 4px solid red;
@@ -237,8 +252,9 @@ body {
   
   .benefit-item {
     display: flex;
-    gap: 12px;          
+    gap: 30px;          
     align-items: flex-start;
+    margin-bottom: 40px;
   }
   
   .benefit-icon {
@@ -255,6 +271,7 @@ body {
   .benefit-title {
     font-weight: bold;
     font-size: 16px;
+    font-family: Abril Titling SemiBold;
   }
   
   .benefit-desc {
