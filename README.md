@@ -5,7 +5,7 @@ N / A
 
 [Please see course website for full spec](https://cgi.cse.unsw.edu.au/~cs6080/NOW/assessments/assignments/ass1)
 
-This assignment is due Wednesday the 1st of October, 8pm.
+This assignment is due Friday the 3rd of October, 8pm.
 
 Please run `./util/setup.sh` in your terminal before you begin. This will set up some checks in relation to the "Git Commit Requirements".
 
@@ -51,7 +51,7 @@ You are expected to have reasonable intermediate states. In other words, if the 
 Please build your page in `task3/index.html`. You are welcome to create as many CSS files that you need in the `task3` folder for `index.html` to import. When being marked, your tutor will start with `index.html`.
 
 On top of this you are required to:
- * Ensure that the *Subscribe now* buttons invert on hover (e.g., the background and text colors swap)
+ * Ensure that the *Subscribe now* buttons invert on hover (e.g., the background and text colors swap), as shown in the middle button.
 
 #### Assets
 

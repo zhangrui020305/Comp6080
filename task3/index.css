@@ -1,0 +1,451 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #f7f7f7;
+  background: linear-gradient(
+    to bottom,
+    #0c162d 0%,
+    #0c162d 29%,
+    #f7f7f7 29%,
+    #f7f7f7 100vh
+  );
+  background-repeat: no-repeat;
+}
+html {
+  background-color: #f7f7f7;
+}
+html,
+body {
+  height: 100%;
+}
+.title-container {
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-family: Abril Titling SemiBold;
+}
+.first-title {
+  margin-top: 20px;
+  font-size: 40px;
+  color: #fff;
+  font-weight: 600;
+}
+.second-title {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+}
+.intro {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.plans-container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  gap: 20px;
+  padding: 40px 0 0 0;
+}
+.plan {
+  flex: 1;
+  border-radius: 8px;
+  background: white;
+  padding: 0 20px 20px 20px;
+  text-align: center;
+}
+.plan-with-banner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-top: -20px;
+}
+.plan-banner {
+  background: #d71a2e;
+  color: white;
+  text-align: center;
+  font-family: Abril Titling SemiBold;
+  padding: 10px;
+  border-radius: 8px 8px 0 0;
+}
+.plan-description {
+  margin-top: 30px;
+  color: red;
+  font-size: 10px;
+  font-weight: 600;
+}
+.plan h2 {
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: Abril Titling SemiBold;
+}
+.plan-2 h2 {
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: Abril Titling SemiBold;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 7%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-family: Abril Titling SemiBold;
+}
+
+.currency {
+  font-size: 16px;
+  align-self: flex-start;
+  margin-top: 3px;
+  font-weight: bold;
+  font-family: Abril Titling SemiBold;
+}
+
+.amount {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1;
+  font-family: Abril Titling SemiBold;
+}
+
+.per-week {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-left: 4px;
+  margin-top: 4px;
+}
+
+.features {
+  margin: 15px 0;
+  text-align: left;
+  height: 30%;
+}
+
+.feature {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.feature svg {
+  width: 16px;
+  height: 16px;
+  fill: black;
+  stroke: black;
+  stroke-width: 2;
+  flex-shrink: 0;
+  margin-right: 8px;
+}
+
+.plan-button {
+  width: 98%;
+  height: 10%;
+  margin-top: 20px;
+  background-color: white;
+  color: #0056b3;
+  border: 2px solid #0056b3;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.plan2-button {
+  width: 270px;
+  height: 32px;
+  margin-top: 20px;
+  background-color: white;
+  color: #0056b3;
+  border: 2px solid #0056b3;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.plan-button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+.plan2-button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.slider-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-family: sans-serif;
+  margin-top: 30px;
+}
+
+.left-text {
+  color: #2a6dd0;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.right-text {
+  color: #cce5ff;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.slider {
+  flex-shrink: 0;
+  display: block;
+}
+
+.more-paper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  color: #2867b3;
+}
+
+.benefits {
+  display: flex;
+  padding: 40px 151px 0 151px;
+  justify-content: center;
+  gap: 140px;
+}
+
+.benefits-left {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: Abril Titling SemiBold;
+}
+.highlight {
+  border-bottom: 4px solid red;
+  padding-bottom: 10px;
+}
+
+.benefits-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.benefit-item {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.benefit-icon {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.benefit-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.benefit-title {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Abril Titling SemiBold;
+}
+
+.benefit-desc {
+  font-size: 14px;
+  line-height: 1.3;
+  color: #555;
+}
+
+.plan-chevron {
+  display: none;
+}
+.benefits-left-small {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    background: #f7f7f7;
+    background: linear-gradient(
+      to bottom,
+      #0c162d 0%,
+      #0c162d 22%,
+      #f7f7f7 22%,
+      #f7f7f7 100vh
+    );
+    background-repeat: no-repeat;
+  }
+  .first-title,
+  .second-title {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .intro {
+    margin: 30px 0 30px 0;
+  }
+  .wrapper {
+    height: auto;
+    width: 100%;
+  }
+  .plans-container {
+    flex-direction: column;
+    width: 60%;
+    gap: 15px;
+  }
+  .plan,
+  .plan-with-banner {
+    width: 100%;
+    flex: none;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+  }
+  .plan-with-banner {
+    order: -1;
+  }
+  .plan-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    padding: 0px;
+    height: 40px;
+  }
+  .plan-left {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 65%;
+  }
+  .plan-left h2 {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .plan-description {
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+    margin-bottom: 5px;
+    color: red;
+    white-space: nowrap;
+    margin-top: 20px;
+  }
+  .plan-right {
+    display: flex;
+    align-items: flex-end;
+    flex-shrink: 0;
+    gap: 5px;
+  }
+  .price {
+    display: flex;
+    align-items: center;
+    margin: 0 !important;
+    flex-shrink: 0;
+  }
+  .amount {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .plan-chevron {
+    display: flex;
+    margin-left: auto;
+    height: 35px;
+    width: 35px;
+    color: #2d71c1 !important;
+  }
+
+  .plan .features,
+  .plan .plan-button,
+  .plan .plan2-button {
+    display: none;
+  }
+
+  .benefits {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 40px;
+  }
+
+  .benefits-left {
+    text-align: center;
+    font-size: 32px;
+    line-height: 1.2;
+  }
+  .benefits-left-small {
+    text-align: center;
+    font-size: 32px;
+    line-height: 1.2;
+  }
+  .benefits-left {
+    display: none;
+  }
+  .highlight-left-small {
+    display: inline-block;
+    border-bottom: 4px solid red;
+    padding-bottom: 5px;
+  }
+
+  .benefits-right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .benefit-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+
+  .benefit-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .benefit-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .benefit-desc {
+    font-size: 14px;
+    line-height: 1.4;
+    
+  }
+}
