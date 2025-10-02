@@ -275,6 +275,9 @@ body {
 .plan-chevron {
   display: none;
 }
+.benefits-left {
+  display: none;
+}
 
 @media (max-width: 1000px) {
   body {
@@ -290,7 +293,8 @@ body {
     );
     background-repeat: no-repeat;
   }
-  .first-title, .second-title {
+  .first-title,
+  .second-title {
     font-size: 20px;
   }
   .intro {
@@ -381,5 +385,62 @@ body {
   .plan .plan-button,
   .plan .plan2-button {
     display: none;
+  }
+
+  .benefits {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 40px;
+  }
+
+  .benefits-left {
+    text-align: center;
+    font-size: 32px;
+    line-height: 1.2;
+  }
+  .benefits-left-small {
+    text-align: center;
+    font-size: 32px;
+    line-height: 1.2;
+  }
+  .benefits-left {
+    display: none;
+  }
+  .highlight-left-small {
+    display: inline-block;
+    border-bottom: 4px solid red;
+    padding-bottom: 5px;
+  }
+
+  .benefits-right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .benefit-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .benefit-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .benefit-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .benefit-desc {
+    font-size: 14px;
+    line-height: 1.4;
   }
 }
