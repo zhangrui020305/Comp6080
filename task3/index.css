@@ -69,6 +69,7 @@ body {
   background: #d71a2e;
   color: white;
   text-align: center;
+  font-family: Abril Titling SemiBold;
   padding: 10px;
   border-radius: 8px 8px 0 0;
 }
@@ -309,7 +310,6 @@ body {
     width: 100%;
     flex: none;
     box-sizing: border-box;
-    border: 2px solid blue;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -319,6 +319,10 @@ body {
     order: -1;
   }
   .plan-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     width: 100%;
     padding: 0px;
     height: 40px;
@@ -336,6 +340,8 @@ body {
     padding: 0;
     text-align: left;
     width: 100%;
+    font-weight: 400;
+    font-size: 20px;
     line-height: 1.2;
   }
   .plan-description {
@@ -356,17 +362,19 @@ body {
   .price {
     display: flex;
     align-items: center;
-    font-size: 1rem;
-    font-weight: bold;
     margin: 0 !important;
     flex-shrink: 0;
+  }
+  .amount {
+    font-size: 30px;
+    font-weight: 500;
   }
   .plan-chevron {
     display: flex;
     margin-left: auto;
-    height: 16px;
-    width: 16px;
-    color: #0056b3;
+    height: 35px;
+    width: 35px;
+    color: #2d71c1 !important;
   }
 
   .plan .features,
